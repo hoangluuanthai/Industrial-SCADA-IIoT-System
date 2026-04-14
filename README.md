@@ -17,8 +17,8 @@ Dự án tập trung vào thiết kế và triển khai hệ thống SCADA toàn
 - **Protocols:** Modbus TCP, OPC DA, MQTT.
 
 ## 📺 Demo
-- [🎥 Xem Video Demo vận hành 1](https://drive.google.com/file/d/1RmHBvMWUq2vxMay4524icWQktTTmQMTd/view?usp=sharing)
-- [🎥 Xem Video Demo vận hành 2](https://drive.google.com/file/d/10tO0DYcYLqrm7h78CkScgLoEreJAWxCp/view?usp=sharing)
+- [🎥 Xem Video Demo vận hành 1][(https://drive.google.com/file/d/1RmHBvMWUq2vxMay4524icWQktTTmQMTd/view?usp=sharing)]
+- [🎥 Xem Video Demo vận hành 2][(https://drive.google.com/file/d/10tO0DYcYLqrm7h78CkScgLoEreJAWxCp/view?usp=sharing)]
 
 ## 🏗 Kiến trúc hệ thống
 ![System Architecture](Technical_Report.pdf)
