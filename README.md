@@ -3,7 +3,7 @@
 ## 📝 Overview
 This project focuses on the design and deployment of a comprehensive end-to-end SCADA system, integrating modern data management solutions. The system provides a seamless data synchronization pipeline from the **Field layer** (device level) up to the **Management layer** (Cloud/IIoT), ensuring real-time monitoring and historical data integrity.
 
-## 🚀 Core Features
+## 🚀 Key Features
 * **Industrial Control Logic:** Developed advanced process control logic using **Unity Pro (Schneider Electric)**, featuring **PID controllers** for system stability and setpoint tracking.
 * **Advanced SCADA Interface:** Engineered a high-performance HMI/SCADA dashboard on **CitectSCADA 2016**. Utilized **Genies & SuperGenies** to optimize object management and ensure system scalability.
 * **Seamless System Integration:** Implemented **KEPServerEX (OPC DA)** as a central gateway to bridge communication between the PLC Simulator and SCADA software.
