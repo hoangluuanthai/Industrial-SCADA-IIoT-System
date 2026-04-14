@@ -19,7 +19,7 @@ Dự án tập trung vào thiết kế và triển khai hệ thống SCADA toàn
 ## 📺 Demo
 - [🎥 Xem Video Demo vận hành 1](https://drive.google.com/file/d/1RmHBvMWUq2vxMay4524icWQktTTmQMTd/view?usp=sharing)
 - [🎥 Xem Video Demo vận hành 2](https://drive.google.com/file/d/10tO0DYcYLqrm7h78CkScgLoEreJAWxCp/view?usp=sharing)
-- 
+- [Tổng hợp](https://drive.google.com/drive/folders/1uu_BLxRKORHPv0vxZrhQaRKmCN2-QV4v?usp=drive_link)
 ## 🏗 Kiến trúc hệ thống
 ![System Architecture](Technical_Report.pdf)
 
