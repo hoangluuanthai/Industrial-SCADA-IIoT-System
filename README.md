@@ -20,7 +20,7 @@ Dự án tập trung vào thiết kế và triển khai hệ thống SCADA toàn
 - [Tổng hợp dự án](https://drive.google.com/drive/folders/1uu_BLxRKORHPv0vxZrhQaRKmCN2-QV4v?usp=drive_link)
   
 ## 🏗 Kiến trúc hệ thống
-![System Architecture](Technical_Report.pdf)
+- [System Architecture](Technical_Report.pdf)
 
 ---
 **Author:** Hoàng Lưu An Thái  
