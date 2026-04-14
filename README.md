@@ -1,27 +1,30 @@
 # Industrial SCADA & IIoT Integration Project (Schneider Electric Ecosystem)
 
-## 📝 Giới thiệu
-Dự án tập trung vào thiết kế và triển khai hệ thống SCADA toàn diện, tích hợp giải pháp điều khiển với các nền tảng quản lý dữ liệu hiện đại. Hệ thống giải quyết bài toán đồng bộ hóa dữ liệu từ tầng thiết bị (Field) lên tầng quản lý (Cloud/IIoT).
+## 📝 Overview
+This project focuses on the design and deployment of a comprehensive end-to-end SCADA system, integrating modern data management solutions. The system provides a seamless data synchronization pipeline from the **Field layer** (device level) up to the **Management layer** (Cloud/IIoT), ensuring real-time monitoring and historical data integrity.
 
-## 🚀 Tính năng cốt lõi
-- **Control Logic:** Lập trình điều khiển quy trình công nghiệp trên **Unity Pro (Schneider Electric)**, tích hợp bộ điều khiển **PID** để ổn định thông số hệ thống.
-- **Advanced SCADA:** Thiết kế giao diện giám sát trên **CitectSCADA** sử dụng **Genies & SuperGenies**, giúp tối ưu hóa quản lý đối tượng và khả năng mở rộng hệ thống.
-- **System Integration:** Sử dụng **KEPServerEX (OPC DA)** làm Gateway trung gian để kết nối mượt mà giữa PLC Simulator và phần mềm giám sát.
-- **Data & IIoT:** - Lưu trữ dữ liệu lịch sử (Historical Data) qua **SQL/ODBC**.
-    - Triển khai giao thức **MQTT** để đẩy dữ liệu vận hành lên Cloud, hỗ trợ giám sát từ xa.
+## 🚀 Core Features
+* **Industrial Control Logic:** Developed advanced process control logic using **Unity Pro (Schneider Electric)**, featuring **PID controllers** for system stability and setpoint tracking.
+* **Advanced SCADA Interface:** Engineered a high-performance HMI/SCADA dashboard on **CitectSCADA 2016**. Utilized **Genies & SuperGenies** to optimize object management and ensure system scalability.
+* **Seamless System Integration:** Implemented **KEPServerEX (OPC DA)** as a central gateway to bridge communication between the PLC Simulator and SCADA software.
+* **Data Logging & IIoT Connectivity:** * Automated historical data logging via **SQL/ODBC** for performance analysis and auditing.
+    * Integrated **MQTT protocol** to push operational telemetry to the Cloud, enabling secure remote monitoring and IIoT capabilities.
 
-## 🛠 Công nghệ sử dụng
-- **PLC Software:** Unity Pro.
-- **SCADA Software:** CitectSCADA 2016.
-- **Connectivity:** KEPServerEX, MQTT Broker, MySQL/SQL Server.
-- **Protocols:** Modbus TCP, OPC DA, MQTT.
+## 🛠 Technology Stack
+* **PLC Software:** Schneider Electric Unity Pro (Control Expert).
+* **SCADA Software:** CitectSCADA 2016.
+* **Connectivity Tools:** KEPServerEX, MQTT Broker, MySQL/SQL Server.
+* **Protocols:** Modbus TCP, OPC DA, MQTT.
+
+## 📐 System Architecture
+The system follows a multi-tier industrial architecture:
+`Field Devices (PLC) <-> OPC Gateway (KEPServerEX) <-> SCADA (Citect) <-> Database (SQL) & Cloud (MQTT)`
+
+* [View Detailed System Architecture](Technical_Report.pdf)
 
 ## 📺 Demo
-- [Tổng hợp dự án](https://drive.google.com/drive/folders/1uu_BLxRKORHPv0vxZrhQaRKmCN2-QV4v?usp=drive_link)
-  
-## 🏗 Kiến trúc hệ thống
-- [System Architecture](Technical_Report.pdf)
+* [Comprehensive Project Demo (Video/Documentation)](https://drive.google.com/drive/folders/1uu_BLxRKORHPv0vxZrhQaRKmCN2-QV4v?usp=drive_link)
 
 ---
-**Author:** Hoàng Lưu An Thái  
+**Author:** Hoang Luu An Thai  
 **Field:** Automation & Control Engineering
